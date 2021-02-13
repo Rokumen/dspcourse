@@ -52,7 +52,6 @@ function timeElapse(date){
 	}
 	seconds = Math.floor(seconds % 60);
 	seconds = (seconds + "").replace(/\.\d*/, "");
-	var result = " <span class=\"digit\">" + days + "</span> 天(｡･∀･)ﾉﾞ♪ <span class=\"digit\">";
-//+ hours + "</span> 小时 <span class=\"digit\">" + minutes + "</span> 分钟 <span class=\"digit\">" + seconds + "</span> 秒";
+	var result = " <span class=\"digit\">" + days + "</span> 天(｡･∀･)ﾉﾞ♪ <span class=\"digit\">"+ hours + "</span> 小时 <span class=\"digit\">" + minutes + "</span> 分钟 <span class=\"digit\">" + seconds + "</span> 秒";
 	$("#clock").html(result);
 }
